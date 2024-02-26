@@ -25,6 +25,7 @@ namespace SauceDemo.PageObjectModel.Drivers
         [TearDown]
         public void CleanUp()
         {
+
             _driver.Close();
         }
     }
